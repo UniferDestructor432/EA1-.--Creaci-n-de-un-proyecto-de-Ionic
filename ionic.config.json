@@ -1,0 +1,7 @@
+{
+  "name": "EA1_myapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
