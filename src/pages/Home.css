@@ -1,0 +1,12 @@
+.fileContent{
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+.Text{
+  border: none;
+  width: 100%;
+  text-overflow: clip;
+}
