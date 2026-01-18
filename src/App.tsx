@@ -56,7 +56,7 @@ const App: React.FC = () => (
           <Edit />
         </Route>
         <Route exact path="/">
-          <Redirect to="/home" />
+          <Redirect to="/menu" />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

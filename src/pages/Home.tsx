@@ -80,12 +80,12 @@ const Home: React.FC = () => {
             </IonText>
           </IonItem>
           <div style={{display: 'flex', flexDirection: 'column', marginLeft: '15px', marginRight: '15px'}}>
-            <IonButton routerLink="/edit" expand='block' color={"primary"}>
-              EDITAR PERFIL
+            <IonButton routerLink="/edit" expand='block' color={"primary"} style={{textTransform: "none"}}>
+              Editar perfil
             </IonButton>
 
-            <IonButton routerLink="/" expand='block' color={"primary"} fill='outline' style={{paddingBottom: '15px'}}>
-              VER MÁS INFORMACIÓN
+            <IonButton routerLink="/" expand='block' color={"primary"} fill='outline' style={{paddingBottom: '15px', textTransform: "none"}}>
+              Ver más información
             </IonButton>
           </div>
         </IonCard>
